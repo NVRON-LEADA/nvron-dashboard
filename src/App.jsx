@@ -31,7 +31,7 @@ const AppContent = () => {
         <Route path="/" element={<ProtectedRoute element={<Dashboard />} />} />
         <Route path="/clinics" element={<ProtectedRoute element={<ClinicPage/>} />} />
         <Route path="/users" element={<ProtectedRoute element={<UserPage/>} />}/>
-        <Route path="subscribe" element={<ProtectedRoute element={<Subscriptionpage />} />} />
+        <Route path="/subscribe" element={<ProtectedRoute element={<Subscriptionpage />} />} />
         <Route path="/analytics" element={<ProtectedRoute element={<AnalyticsPage/>} />} />
         <Route path="/system-health" element={<ProtectedRoute element={<SystemHealthPage/>} />} />
       </Routes>
