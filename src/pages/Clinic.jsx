@@ -126,4 +126,4 @@ export default ClinicPage;
 // You need a modal to edit or delete clinics
 
 // I can continue from there.
-// I can continue from there.
+// I can continue from there here s.
